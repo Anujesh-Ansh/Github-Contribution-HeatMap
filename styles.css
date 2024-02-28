@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contribution-graph {
+    display: grid;
+    grid-template-columns: repeat(52, 1fr);
+    gap: 2px;
+}
+
+.contribution-cell {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ddd;
+    background-color: #ebedf0;
+}
